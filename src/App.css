@@ -1,0 +1,31 @@
+
+.row{
+  display: flex;
+  gap:30px;
+}
+.list{
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  gap:20px;
+
+}
+.list img{
+  width:170px;
+  height: 200px;
+}
+.list button{
+  background-color: transparent;
+  border:1px solid mediumvioletred;
+  color:mediumvioletred;
+  margin-left:45px;
+}
+
+.table{
+  border-collapse: collapse;
+  width:500px;
+}
+.table,tr,td,th{
+  border:1px solid gray;
+  padding:3px;
+}
